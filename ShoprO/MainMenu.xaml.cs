@@ -20,20 +20,21 @@ namespace ShoprO
     /// </summary>
     public partial class MainMenu : Page
     {
-        public MainMenu()
+       
+        public MainMenu(string name)
         {
             InitializeComponent();
+
+            
+            HelloLbl.Content = ("Hello, " + name + " let`s play Kopro Shashki");
         }
 
         private void SinglPl_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Game());
         }
 
-        private void MultiPl_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
 
         private void Seting_Click(object sender, RoutedEventArgs e)
         {

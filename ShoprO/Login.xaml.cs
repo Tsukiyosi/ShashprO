@@ -20,14 +20,17 @@ namespace ShoprO
     /// </summary>
     public partial class Login : Page
     {
+        string name { get; set; }
         public Login()
         {
             InitializeComponent();
+            
         }
 
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new MainMenu());
+            name = lgn.Text;
+            NavigationService.Navigate(new MainMenu(name));
         }
 
         private void Registr_Click(object sender, RoutedEventArgs e)

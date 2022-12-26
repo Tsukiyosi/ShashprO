@@ -18,7 +18,7 @@
                FontSize="20" FontFamily="Times New Roman"/>
         <StackPanel Grid.Row="1" Margin="30">
             <Label Content="Login" HorizontalAlignment="Center" FontSize="20" FontFamily="Times New Roman"/>
-            <TextBox x:Name="Account" HorizontalAlignment="Center" Width="200" Height="20"/>
+            <TextBox x:Name="lgn" HorizontalAlignment="Center" Width="200" Height="20"/>
             <Label Content="Password" HorizontalAlignment="Center" FontSize="20" FontFamily="Times New Roman"/>
             <TextBox x:Name="Pass" HorizontalAlignment="Center" Width="200" Height="20"/>
         </StackPanel>

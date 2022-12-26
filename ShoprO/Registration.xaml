@@ -32,7 +32,11 @@
             <TextBox x:Name="RegPass" Height="20" Width="200"
                      FontSize="25" FontFamily="Times New Roman"/>
         </StackPanel>
-        
+
+        <StackPanel Grid.Row="2" VerticalAlignment="Center">
+            <Button x:Name="reg" Content="Registrate" Width="200" Height="50" 
+                    Margin="10" FontFamily="Times New Roman" FontSize="25"/>
+        </StackPanel>
         
     </Grid>
 </Page>

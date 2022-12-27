@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using Microsoft.EntityFrameworkCore;
 using System.Windows.Shapes;
 
 namespace ShoprO
@@ -20,6 +21,8 @@ namespace ShoprO
     /// </summary>
     public partial class Login : Page
     {
+        public Player Player { get; private set; }
+
         string name { get; set; }
         public Login()
         {
@@ -41,7 +44,7 @@ namespace ShoprO
 
         private void Registr_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Registration());
+            NavigationService.Navigate(new Registration(Player));
         }
     }
 }

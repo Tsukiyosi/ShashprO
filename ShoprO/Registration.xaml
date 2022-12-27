@@ -35,7 +35,7 @@
 
         <StackPanel Grid.Row="2" VerticalAlignment="Center">
             <Button x:Name="reg" Content="Sign Up" Width="200" Height="50" 
-                    Margin="10" Style="{DynamicResource BtnStyle}" FontSize="25"/>
+                    Margin="10" Style="{DynamicResource BtnStyle}" FontSize="25" Click="reg_Click"/>
         </StackPanel>
         
     </Grid>

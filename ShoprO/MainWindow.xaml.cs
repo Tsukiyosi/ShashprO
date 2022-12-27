@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore;
 
 namespace ShoprO
 {
@@ -20,9 +21,19 @@ namespace ShoprO
     /// </summary>
     public partial class MainWindow : Window
     {
+        ApplicationContext db = new ApplicationContext();
         public MainWindow()
         {
             InitializeComponent();
+            //Loaded += MainWindow_Loaded;
         }
+       /* private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+          
+            db.Database.EnsureCreated();
+            db.Players.Load();
+           
+            
+        }*/
     }
 }

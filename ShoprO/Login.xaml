@@ -27,7 +27,7 @@
                     Height="40" Width="200" Margin="10"
                     FontSize="15" Style="{DynamicResource BtnStyle}"
                     Click="Enter_Click"/>
-            <Button x:Name="Registr" Content="Registration" 
+            <Button x:Name="Registr" Content="Sign Up" 
                     Height="40" Width="200" Margin="10"
                     FontSize="15" Style="{DynamicResource BtnStyle}"
                     Click="Registr_Click"/>

@@ -41,7 +41,7 @@ namespace ShoprO
 
         private void Registr_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Registration());
         }
     }
 }

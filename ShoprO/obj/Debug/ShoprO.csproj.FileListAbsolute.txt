@@ -40,3 +40,7 @@ D:\vs\ShoprO\ShoprO\obj\Debug\ShoprO.Properties.Resources.resources
 D:\vs\ShoprO\ShoprO\obj\Debug\ShoprO.csproj.GenerateResource.cache
 D:\vs\ShoprO\ShoprO\obj\Debug\ShoprO.exe
 D:\vs\ShoprO\ShoprO\obj\Debug\ShoprO.pdb
+D:\vs\ShoprO\ShoprO\obj\Debug\StandartTheme.baml
+D:\vs\ShoprO\ShoprO\obj\Debug\App.baml
+D:\vs\ShoprO\ShoprO\obj\Debug\Settings.g.cs
+D:\vs\ShoprO\ShoprO\obj\Debug\Settings.baml

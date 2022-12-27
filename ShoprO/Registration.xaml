@@ -8,34 +8,34 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Registration">
 
-    <Grid Background="White">
+    <Grid Background="#6FA5AD">
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition/>
             <RowDefinition/> 
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="Registration" FontSize="25" 
-               FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Grid.Row="0" Content="Sign Up" FontSize="25" 
+               Style="{DynamicResource LablStyle}" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
 
         <StackPanel Grid.Row="1">
             <Label Content="Your Email" FontSize="25" 
-               FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+               Style="{DynamicResource LablStyle}" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
             <TextBox x:Name="RegEmail" Height="20" Width="200"
                      FontSize="25" FontFamily="Times New Roman"/>
             <Label Content="Your Login" FontSize="25" 
-               FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+               Style="{DynamicResource LablStyle}" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
             <TextBox x:Name="RegLog" Height="20" Width="200"
                      FontSize="25" FontFamily="Times New Roman"/>
             <Label Content="Your Password" FontSize="25" 
-               FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
+               Style="{DynamicResource LablStyle}" HorizontalAlignment="Center" VerticalContentAlignment="Center"/>
             <TextBox x:Name="RegPass" Height="20" Width="200"
                      FontSize="25" FontFamily="Times New Roman"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2" VerticalAlignment="Center">
-            <Button x:Name="reg" Content="Registrate" Width="200" Height="50" 
-                    Margin="10" FontFamily="Times New Roman" FontSize="25"/>
+            <Button x:Name="reg" Content="Sign Up" Width="200" Height="50" 
+                    Margin="10" Style="{DynamicResource BtnStyle}" FontSize="25"/>
         </StackPanel>
         
     </Grid>

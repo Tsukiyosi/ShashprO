@@ -26,7 +26,7 @@ namespace ShoprO
             InitializeComponent();
 
             
-            HelloLbl.Content = ("Hello, " + name + " let`s play Kopro Shashki");
+            HelloLbl.Content = ("Hello, " + name + " let`s play Shashki");
         }
 
         private void SinglPl_Click(object sender, RoutedEventArgs e)
@@ -38,7 +38,7 @@ namespace ShoprO
 
         private void Seting_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Settings());
         }
     }
 }

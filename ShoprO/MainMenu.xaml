@@ -8,8 +8,8 @@
 	  d:DesignHeight="450" d:DesignWidth="800"
 	  Title="MainMenu">
 
-	
-		<Grid Background="White">
+
+    <Grid Background="#6FA5AD">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="150"/>
             <RowDefinition/>
@@ -18,8 +18,12 @@
 			
 			<Grid Grid.Row="0">
 				<StackPanel>
-					<Label Content="ShashPro" FontFamily="Times New Roman" FontSize="50" HorizontalAlignment="Center" VerticalAlignment= "Center"/>
-					<Label x:Name="HelloLbl"  FontFamily="Times New Roman" FontSize="40" HorizontalAlignment="Center" VerticalAlignment= "Center"/>
+					<Label Content="ShashPro" Style="{DynamicResource LablStyle}" 
+                           FontSize="50" 
+                           HorizontalAlignment="Center" VerticalAlignment= "Center"/>
+					<Label x:Name="HelloLbl"  
+                           Style="{DynamicResource LablStyle}" FontSize="15" 
+                           HorizontalAlignment="Center" VerticalAlignment= "Center"/>
 				</StackPanel>
 				
 			</Grid>
@@ -27,6 +31,8 @@
 			<Button x:Name="SnglPl" Grid.Row="1"
 					HorizontalAlignment="Center"
 					Width="200" Height="50"
+                    Style="{DynamicResource BtnStyle}"
+                    FontSize="20"
 					Content="Single Player" Click="SinglPl_Click"/>
 
 			
@@ -34,6 +40,8 @@
 			<Button x:Name="Settings" Grid.Row="3"
 					HorizontalAlignment="Center"
 					Width="200" Height="50"
+                    Style="{DynamicResource BtnStyle}"
+                    FontSize="20"
 					Content="Settings" Click="Seting_Click"/>
 		</Grid>
 </Page>

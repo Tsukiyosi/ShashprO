@@ -13,7 +13,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" Content="Hello, Player, login in your account" 
+        <Label x:Name="toplbl" Grid.Row="0" Content="Hello, Player, login in your account" 
                HorizontalAlignment="Center" VerticalAlignment="Bottom" VerticalContentAlignment="Center" 
                FontSize="20" Style="{DynamicResource LablStyle}"/>
         <StackPanel Grid.Row="1" Margin="30">

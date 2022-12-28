@@ -10,6 +10,6 @@ namespace ShoprO
     public class  Player
     {
         public string login { get; set; }
-        public int password { get; set; }
+        public string password { get; set; }
     }
 }

@@ -30,11 +30,10 @@ namespace ShoprO
 
         private void reg_Click(object sender, RoutedEventArgs e)
         {
-            
-            Player.login = RegLog.Text;
-            Player.password = Convert.ToInt32(RegPass.Text);
-            
-
+            Player player = new Player();
+            player.login = RegLog.Text;
+            player.password = RegPass.Text;
+            NavigationService.Navigate(new Login());
         }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\vs\ShoprO\ShoprO\obj\Debug\
+C:\Users\Пользователь\Source\Repos\ShashprO\ShoprO\obj\Debug\
 ShoprO
 none
 false
 DEBUG;TRACE
-D:\vs\ShoprO\ShoprO\App.xaml
+C:\Users\Пользователь\Source\Repos\ShashprO\ShoprO\App.xaml
 71068422841
-3244792897
-111969866422
-5050012567
+3448831260
+131809485281
+501433074562
 Game.xaml;Login.xaml;MainMenu.xaml;MainWindow.xaml;Registration.xaml;Settings.xaml;StandartTheme.xaml;
 
-True
+False
 

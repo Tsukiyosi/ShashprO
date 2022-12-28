@@ -20,9 +20,21 @@ namespace ShoprO
     /// </summary>
     public partial class Registration : Page
     {
-        public Registration()
+        public Player Player { get; private set; }
+        public Registration(Player player)
         {
             InitializeComponent();
+            Player = player;
+            DataContext = Player;
+        }
+
+        private void reg_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Player.login = RegLog.Text;
+            Player.password = Convert.ToInt32(RegPass.Text);
+            
+
         }
     }
 }

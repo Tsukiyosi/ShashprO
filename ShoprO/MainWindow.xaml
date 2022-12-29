@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:ShoprO"
         mc:Ignorable="d"
         Title="ShaShpro" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    
     <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Source="Login.xaml">
         
     </Frame>
